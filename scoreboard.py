@@ -8,7 +8,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        with open(r"C:\\PYTHON\\day20&21snake_game.py\\data.txt") as data:
+        with open(r"./data.txt") as data:
             self.high_score = int(data.read())
         self.color("white")
         self.penup()
